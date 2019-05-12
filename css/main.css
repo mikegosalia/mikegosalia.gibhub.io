@@ -1,0 +1,291 @@
+body {
+	background-color: #272727;
+	color: white;
+	font-family: "EB Garamond", serif;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+.navbar {
+	border: none;
+	box-shadow: 0px 2px 5px 2px rgba(39,39,39,0.5);
+}
+
+.navbar-brand {
+	font-size: 2.5em;
+}
+
+.navbar-inverse {
+	background-color: #272727;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+	color: #CCCCCC;
+}
+
+.navbar-nav {
+	font-size: 1.5em;
+	border: none;
+}
+
+ul.dropdown-menu a{
+	font-size: 1.5em;
+}
+
+.profile-image {
+	background-color: #1D1D1D;
+	border: none;
+	padding: 0px;
+	margin: 0 auto;
+	max-height: 400px;
+}
+
+.top-row {
+	background-color: #272727; 
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+.greetings {
+	text-align: center;
+	margin-bottom: 50px;
+	text-shadow: 6px 6px 2px rgba(0,0,0,0.8);
+}
+
+.greetings h1 {
+	font-size: 5em;
+}
+
+.greetings h2 {
+	font-size: 2.5em;
+}
+
+.biotext p {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+.biotext {
+	padding: 1em;
+}
+
+.socialbox {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.socialRow {
+	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 0.5em;
+}
+
+.linkwrap {
+	display: inline-block;
+}
+
+.socialbox a {
+	font-size: 4rem;
+	color: #FFFFFF;
+}
+.socialbox a:hover {
+	color: #CCCCCC;
+}
+
+.socialbox a i {
+	font-size: 2em;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.newsletter {
+	font-family: sans-serif;
+	display: block;
+	color: #333333;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.newsletter div {
+	margin-bottom: 10px;
+}
+
+.mediaContainer {
+	margin-top: 20px;
+}
+
+.socialText {
+	text-align: center;
+}
+
+.socialContainerWrap {
+	background-color: #333333;
+}
+
+.carousel-inner .item img {
+    height: 320px;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.mediaContainer {
+	background-color: #333333;
+}
+
+.mediaItem {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.bookContainer {
+	margin-top: 20px;
+}
+
+.reviews h2 {
+	font-style: italic;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-shadow: 6px 6px 2px rgba(0,0,0,0.8);
+}
+
+.reviews a h1 {
+	text-align: center;
+	font-size: 3em;
+	text-shadow: 6px 6px 2px rgba(0,0,0,0.8);
+}
+
+.reviews a {
+	color: #FFFFFF;
+}
+
+.carousel {
+	max-width: 600px;
+}
+
+.mediaContainer h1 {
+	text-align: center;
+}
+
+.excerptContainer {
+	height: 700px;
+}
+
+.excerptWrap {
+	background-color: #000000;
+	height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.excerpt {
+	position: absolute;
+	margin-top: 8em;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: -30px;
+	overflow-y: scroll;
+	z-index: -1;
+}
+
+.excerptWrap h1 {
+	background-color: #000000;
+	font-size: 4em;
+	text-align: center;
+	box-shadow: 0px 30px 50px 1px rgba(0,0,0,1);
+	margin-top: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.3em;
+}
+
+.excerpt h2 {
+	padding-left: 2em;
+}
+
+.excerpt p {
+	font-size: 1.5em;
+	line-height: 2em;
+	padding: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+.bookimg img {
+	margin: 0 auto;
+}
+
+.resources {
+	display: block;
+	background-color: #373737;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	padding: 1em;
+}
+
+.resources li {
+	list-style: none;
+	font-size: 1.5em;
+}
+
+.resources ul {
+	padding: 0;
+}
+
+.carousel-control {
+	background: none !important;
+}
+
+.purchaseWrap {
+	text-align: center;
+	padding: 2em 4em;
+}
+
+.purchaseWrap h1 {
+	font-size: 3em;
+	text-shadow: 6px 6px 2px rgba(0,0,0,0.8);
+}
+
+.purchase {
+	padding: 1em;
+	font-size: 22px;
+}
+
+.purchase a {
+	display: inline-block;
+	color: #FFFFFF;
+	width: 100%;
+	padding: 1em;
+	background-color: #555555;
+	border-radius: 0.2em;
+}
+
+.biotext a {
+	color: white;
+}
+
+footer a {
+	color: #777777;
+	font-size: 18px;
+}
+
+footer {
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 20px;
+}
