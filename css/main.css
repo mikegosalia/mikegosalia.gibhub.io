@@ -36,7 +36,8 @@ ul.dropdown-menu a{
 	background-color: #1D1D1D;
 	border: none;
 	padding: 0px;
-	margin: 0 auto;
+	margin-top: 4%;
+	margin-left: 27%;
 	max-height: 400px;
 }
 
